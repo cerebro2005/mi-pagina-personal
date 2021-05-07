@@ -52,4 +52,5 @@
   });
 })(document);
 
-/* VIDEO TALLER DE MAQUETACION --> MINUTO 5:33:00 */
+
+/* https://cerebro2005.github.io/mi-pagina-personal/Portafolio-cv */
