@@ -35,12 +35,12 @@
     })
     .then((res) => (res.ok ? res.json : Promise.reject(res)))
     .then(json=>{
-      console.log(json);      
+      //console.log(json);      
       location.hash = "#gracias";
       $form.reset();
     })
     .catch(err =>{
-      console.log(err);
+      //console.log(err);
       let message = err.statusText || "Ocurrio un err al enviar, intenta nuevamente"
       $response.querySelector("h3").innerHTML = `Error ${err.staus}: ${message}`;
     }).finally(()=>{
@@ -53,4 +53,4 @@
 })(document);
 
 
-/* https://cerebro2005.github.io/mi-pagina-personal/Portafolio-cv */
+/* https://cerebro2005.github.io/mi-pagina-personal*/

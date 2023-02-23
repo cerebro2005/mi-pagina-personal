@@ -28,7 +28,7 @@ html {
   box-sizing: border-box; /* el ancho y altura de la caja que vaya desde el borde y no desde el contenido */
   font-family: var(--font);
   font-size: 16px;
-  scroll-behavior: smooth; /* de el movimiento de un link a otro */
+  scroll-behavior: smooth; /* da el movimiento de un link a otro */
 }
 
 /* Todo el contenido antes y despues que hereden el tamaño de caja del nodo principal que es la etiqueta html */
@@ -746,5 +746,3 @@ progress::-moz-progress-bar{
     grid-column: span 3;
   }
 }
-
-/* VIDEO TALLER DE MAQUETACION --> MINUTO 5:33:00 */
